@@ -1,0 +1,7 @@
+<%= @keyword%>는 <%= @count %>번 언급되었습니다.
+</br>
+<% for i in 0...@count %>
+    <h1><%= @headlines.at(i) %></h1>
+    <h3><a href="<%= @uris.at(i) %>" target="_blank"><%= @uris.at(i) %></a></h3>
+    </br>
+<% end%>

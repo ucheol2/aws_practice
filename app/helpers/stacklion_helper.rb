@@ -1,0 +1,2 @@
+module StacklionHelper
+end

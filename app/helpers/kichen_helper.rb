@@ -1,0 +1,2 @@
+module KichenHelper
+end

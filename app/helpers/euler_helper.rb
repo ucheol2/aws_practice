@@ -1,0 +1,2 @@
+module EulerHelper
+end
